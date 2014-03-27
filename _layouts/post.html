@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="pure-g-r" id="post-title">
+  <div class="pure-u-1-6 pure-hidden-phone"></div>
+  <div class="pure-u-2-3 central">
+    <h2>{{ page.title }}</h2>
+    <div class="meta">{% if page.author %}{% for author in page.author %}{{ author }}, {% endfor %}{% endif %}{{ page.date | date_to_string }}</div>
+  </div>
+</div>
+
+
+
+<div class="pure-g-r" id="post">
+  <div class="pure-u-1-6 pure-hidden-phone"></div>
+  <div class="pure-u-2-3 central">
+    {{ content }}
+  </div>
+</div>

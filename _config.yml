@@ -1,0 +1,5 @@
+name: site_name
+markdown: redcarpet
+pygments: true
+permalink: /blog/:year/:i_month/:title
+description: "My website"

@@ -1,1 +1,16 @@
-hello world
+---
+layout: default
+title: site_name
+---
+
+<div class="pure-g-r">
+  <div class="pure-u-1-6 pure-hidden-phone"></div>
+  <div class="pure-u-2-3 central">
+    <h3>Blog Posts</h3>
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
