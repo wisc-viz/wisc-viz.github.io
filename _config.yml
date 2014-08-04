@@ -1,5 +1,5 @@
-name: site_name
+name: data visualzation working group
 markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:i_month/:title
-description: "My website"
+description: "A project of graduate students in the University of Wisconsin statistics department"
