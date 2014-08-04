@@ -81,6 +81,11 @@ li {
   font-weight: 100;
 }
 
+#description {
+  font-size: 0.5em;
+  font-weight: 100;
+}
+
 #header {
   margin-top: 2em;
 }
