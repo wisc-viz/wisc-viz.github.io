@@ -5,3 +5,4 @@ permalink: /blog/:year/:i_month/:title
 description: "A project of graduate students in the University of Wisconsin statistics department"
 twitter: wiscviz
 github: wisc-viz
+url: http://wisc-viz.github.io

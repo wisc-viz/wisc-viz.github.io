@@ -87,7 +87,7 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
     
-d3.csv("wolf.csv", function(data) {
+d3.csv("{{ site.url }}wolf.csv", function(data) {
     d = data;
     
     yy = d3.extent(data, function(z) { return z.YEAR; });
