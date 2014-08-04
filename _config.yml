@@ -1,5 +1,7 @@
-name: data visualzation working group
+name: Data visualzation working group
 markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:i_month/:title
 description: "A project of graduate students in the University of Wisconsin statistics department"
+twitter: wiscviz
+github: wisc-viz
