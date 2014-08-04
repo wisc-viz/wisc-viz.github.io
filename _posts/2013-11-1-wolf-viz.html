@@ -7,9 +7,9 @@ categories: blog
 
 <style>
 /* CSS goes here. */
-body {
+/*body {
   font: 10px sans-serif;
-}
+}*/
 
 .axis path,
 .axis line {
@@ -80,7 +80,7 @@ var line = d3.svg.line()
     .y(function(d) { return scaley(d[1]); });
     
     
-var svg = d3.select("viz").append("svg")
+var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
